@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ekaterina Makarenkova - CV/Resume">
+    <meta name="keywords" content="cv, resume, portfolio, ekaterina makarenkova">
+    <meta name="author" content="Ekaterina Makarenkova">
+    <title>Ekaterina Makarenkova - Personal page</title>
+    <link rel="alternate" hreflang="ru" href="index.html" />
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:300,400,700|PT+Sans+Narrow:400,700">
+    <script src="https://kit.fontawesome.com/6b587ba060.js" crossorigin="anonymous"></script>
+    <script>
+        function toRussian() {
+            location.href = `index.html?posY=${window.scrollY}`;
+        }
+        window.onload = function () {
+            let queryDict = {};
+            location.search.substr(1).split("&").forEach(function (item) {
+                queryDict[item.split("=")[0]] = item.split("=")[1]
+            });
+            let Y = queryDict['posY'];
+            window.scrollTo(0, Number(Y));
+        }
+    </script>
+</head>
+
+<body>
+    <div class="language">
+        <div class="lang_field" onclick="toRussian()">
+            <div class="ru_lang">Русский</div>
+            <label class="checkbox-lang">
+                <input type="checkbox" checked="checked">
+                <span class="checkbox-switch"></span>
+            </label>
+            <div class="en_lang">English</div>
+        </div>
+    </div>
+    <div class="container" id="top">
+        <div class="left_space">
+
+        </div>
+        <main>
+            <article class="card">
+                <div class="l_column">
+                    <div class="photo">
+                        <img src="Images/Picture1.png" alt="Picture 1">
+                    </div>
+                    <a href="cv/CV_Makarenkova_eng.pdf" target="cv">
+                        <div class="cv_button">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                            <p>Download resume</p>
+                        </div>
+                    </a>
+                    <div class="available">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span class="text-available">remote work is preferred</span>
+                    </div>
+                </div>
+                <div class="r_column">
+                    <div class="info_profile">
+                        <h2>HI! I'M <span>EKATERINA MAKARENKOVA</span></h2>
+                        <h3>Frontend developer</h3>
+                        <p>Hello! I’m Ekaterina Makarenkova. Frontend Developer with 4 years of programming experience
+                            as a favorite hobby. I graduated from the Radio Engineering University with honors in the
+                            field of Information Systems and Technologies.
+                            I have experience in developing dynamic web projects. I create website designs with CSS3 and
+                            Bootstrap v5.0, functionality with JavaScript and utilize React library for convenient
+                            project development.
+                            I have knowledge of DOM, Express.js, Node.js, APIs, RESTful API, jQuery, HTML5, Mongoose
+                            library for MongoDB, SQL, Authentication and Sequrity, Git and GitHub. I have a strong
+                            background in finace working in a major international bank.</p>
+                    </div>
+                    <div class="footer_profile">
+                        <div class="col_contacts">
+                            <ul class="ul-info">
+                                <li class="li-info">
+                                    <span class="title-info">Age</span>
+                                    <span class="info">33</span>
+                                </li>
+                                <li class="li-info">
+                                    <span class="title-info">Address</span>
+                                    <span class="info">Ryazan, Russia</span>
+                                </li>
+                                <li class="li-info">
+                                    <span class="title-info">Email</span>
+                                    <span class="info">nekrev@gmail.com</span>
+                                </li>
+                                <li class="li-info">
+                                    <span class="title-info">Nationality</span>
+                                    <span class="info">Russian</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col_contacts second_contacts">
+                            <ul class="ul-info">
+                                <li class="li-info">
+                                    <span class="title-info">Phone/WA</span>
+                                    <span class="info">+7 920 988 88 42</span>
+                                </li>
+                                <li class="li-info">
+                                    <span class="title-info">Website</span>
+                                    <span class="info"><a href="https://katya369.github.io/My_CV_Syte/">About my
+                                            background</a>
+
+                                    </span>
+                                </li>
+
+                                <li class="li-info">
+                                    <span class="title-info">Telegram</span>
+                                    <span class="info"><a href="https://telegram.im/@Nektarina369"
+                                            target="_blank">@Nektarina369</a></span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="social">
+                            <span class="title-links">Social Links</span>
+                            <ul class="ul-social-links">
+                                
+                                <li class="li-social-links">
+                                    <a href="https://www.linkedin.com/in/ekaterina-nekrasova-007/" data-tootik="Linkedin" data-tootik-conf="square"><i class="fa fa-linkedin"
+                      aria-hidden="true"></i></a>
+                                </li>
+                                <li class="li-social-links">
+                                    <a href="https://github.com/Katya369" data-tootik="Github" data-tootik-conf="square"><i class="fa fa-github"
+                      aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="skills">
+                <h2><span>SKILLS</span></h2>
+                <div class="cards">
+                    <div class="card l_column">
+                        <div class="skills-header">
+                            <h3>PROFESSIONAL</h3>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">HTML &amp; CSS</span>
+                            <span class="skill-value">95%</span>
+                        </div>
+                        <div class="progress-bar blue stripes">
+                            <span style="width: 95%"></span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-value">95%</span>
+                        </div>
+                        <div class="progress-bar blue stripes">
+                            <span style="width: 95%"></span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">TypeScript</span>
+                            <span class="skill-value">90%</span>
+                        </div>
+                        <div class="progress-bar blue stripes">
+                            <span style="width: 90%"></span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">React</span>
+                            <span class="skill-value">85%</span>
+                        </div>
+                        <div class="progress-bar green stripes">
+                            <span style="width: 85%"></span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Node.JS</span>
+                            <span class="skill-value">80%</span>
+                        </div>
+                        <div class="progress-bar green stripes">
+                            <span style="width: 80%"></span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">MongoDB</span>
+                            <span class="skill-value">75%</span>
+                        </div>
+                        <div class="progress-bar green stripes">
+                            <span style="width: 75%"></span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">jQuery</span>
+                            <span class="skill-value">70%</span>
+                        </div>
+                        <div class="progress-bar green stripes">
+                            <span style="width: 70%"></span>
+                        </div>
+                    </div>
+                    <div class="card r_column">
+                        <div class="skills-header">
+                            <h3>ADDITIONAL</h3>
+                        </div>
+                        <div class="sun_bars">
+                            <div class="skill_card">
+                                <div class="sun pers_90">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <p>90%</p>
+                                </div>
+                                <div class="add_skill_name">
+                                    Studying
+                                    (I can study from 9am to 3pm)
+                                    Verbosity
+                                    (I can pursue what I whant) 
+                                </div>
+                            </div>
+                            <div class="skill_card">
+                                <div class="sun pers_95">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <p>95%</p>
+                                </div>
+                                <div class="add_skill_name">
+                                    Proficient in written and oral communication
+                                    (graduated from school wit honors)
+                                </div>
+                            </div>
+                            <div class="skill_card">
+                                <div class="sun pers_90">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <p>90%</p>
+                                </div>
+                                <div class="add_skill_name">
+                                    English
+                                    (Intermediate B2)
+                                    (I can communicate and learn through videos in English)
+                                </div>
+                            </div>
+                            <div class="skill_card">
+                                <div class="sun pers_100">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <p>100%</p>
+                                </div>
+                                <div class="add_skill_name">
+                                    Diligence and obedience
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills_checklist">
+                            <div class="checklist_card">
+                                <div class="checklist_line">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span>React Context</span>
+                                </div>
+                                <div class="checklist_line">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span>Next.js</span>
+                                </div>
+                                <div class="checklist_line">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span>Redux</span>
+                                </div>
+                                <div class="checklist_line">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span>Git и GitHub</span>
+                                </div>
+                                <div class="checklist_line">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span>RESTful API</span>
+                                </div>
+                                <div class="checklist_line">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span>Express</span>
+                                </div>
+                            </div>
+                            <div class="checklist_card">
+                                <div class="checklist_line">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span>Ability to achieve goals</span>
+                                </div>
+                                <div class="checklist_line">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span>Patience and perseverance (willing to do routine, unexciting, yet stable work)</span>
+                                </div>
+                                <div class="checklist_line">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span>Familiar with Ejile, Jira, Git, Test Cases, Postman</span>
+                                </div>
+                                <div class="checklist_line">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span>Familiar with website promotion algorithms (I have over 8000 followers on Dzen)</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="education">
+                <h2><span>EDUCATION</span></h2>
+                <div class="card education_card">
+                    <div class="school_cards">
+                        <div class="years">
+                            <h3>2007 - 2012</h3>
+                        </div>
+                        <div class="school">
+                            <div class="school_line">
+                                <div class="school_icon">
+                                    <i class="fa fa-university"></i>
+                                </div>
+                                Ryazan State Radio Engineering University named after V.F. Utkin
+                            </div>
+                            <div class="school_line">
+                                <div class="school_icon">
+                                    <i class="fa fa-file-text"></i>
+                                </div>
+                                Information Systems and Technologies
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="experience">
+                <h2><span>EXPERIENCE</span></h2>
+                <div class="experience_container">
+                    <div class="experience_card">
+                        <div class="face face1 card" style="margin-top: 50px">
+                           
+                            
+                            <div class="content">
+                                <div class="work_logo ">
+                                    <i class="fa fa-users"></i>
+                                </div>
+                                
+                                <div class="work_description">
+                                    <div class="work_line">2012 - present</div>
+                                    <div class="work_line">Citibank</div>
+                                    <div class="work_line">Senior Business AML Analyst</div>
+                                </div>
+                                <div class='work_logo1'>
+                                    <i class="fa fa-angle-down fa-4x"></i>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <ul>
+                                    <li>Suspicious activity investigation and closing AML cases</li>
+                                 
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience_card">
+                        <div class="face face1 card">
+                            <div class="content">
+                                <div class="work_logo">
+                                    <i class="fa fa-desktop"></i>
+                                </div>
+                                <div class="work_description">
+                                    <div class="work_line">2022 - present</div>
+                                    <div class="work_line">React - The Complete Guide (incl Hooks, React Router, Redux) by Maximilian Schwarzmüller</div>
+                                    <div class="work_line">Web developer</div>
+                                </div>
+                                <div class='work_logo1'>
+                                    <i class="fa fa-angle-down fa-4x"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <ul>
+                                    <li>Intensive learning of React, Hooks, Redux, React Routing, Animations, Next.js</li>
+                                    <li>Algorithms and Databases study</li>
+                                    <li>Web products development</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience_card">
+                        <div class="face face1 card">
+                            <div class="content">
+                                <div class="work_logo">
+                                    <i class="fa fa-desktop"></i>
+                                </div>
+                                <div class="work_description">
+                                    <div class="work_line">2022 - 2023</div>
+                                    <div class="work_line">The Complete 2023 Web Development Bootcamp by Angela</div>
+                                    <div class="work_line">Full-Stack Web Developer</div>
+                                </div>
+                                <div class='work_logo1'>
+                                    <i class="fa fa-angle-down fa-4x"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <ul>
+                                    <li>Intensive learning of HTML, CSS, Javascript, jQuery, NPM, Node, React, MongoDB</li>
+                                    <li>Algorithms and Databases study</li>
+                                    <li>Web products development (pls, see GitHub)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience_card">
+                        <div class="face face1 card">
+                            <div class="content">
+                                <div class="work_logo">
+                                    <i class="fa fa-desktop"></i>
+                                </div>
+                                <div class="work_description">
+                                    <div class="work_line">2022</div>
+                                    <div class="work_line">The Complete SQL Bootcamp by Jose Portilla</div>
+                                    <div class="work_line">Expert at SQL</div>
+                                </div>
+                                <div class='work_logo1'>
+                                    <i class="fa fa-angle-down fa-4x"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <ul>
+                                    <li>Intensive learning SQL to query a database</li>
+                                    <li>Replicating real-world situations and query reports</li>
+                                    <li>Using SQL to perform data analysis</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience_card">
+                        <div class="face face1 card">
+                            <div class="content">
+                                <div class="work_logo">
+                                    <i class="fa fa-desktop"></i>
+                                </div>
+                                <div class="work_description">
+                                    <div class="work_line">2021</div>
+                                    <div class="work_line">Software Testing Masterclass by Ozan Ilhan</div>
+                                    <div class="work_line">Software tester</div>
+                                </div>
+                                <div class='work_logo1'>
+                                    <i class="fa fa-angle-down fa-4x"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <ul>
+                                    <li>Test tooling, JIRA, Confluence, TestRail, TestLodge, Charles Proxy, Postman, gitHub and Miro</li>
+                                    <li>Obtain the core Mobile Testing, Backend testing, Web testing, Test Engineering skills</li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="experience_card">
+                        <div class="face face1 card">
+                            <div class="content">
+
+                                <div class="work_logo">
+                                    <i class="fa fa-users"></i>
+                                </div>
+                                <div class="work_description">
+                                    <div class="work_line">2011 - 2012</div>
+                                    <div class="work_line">JSC Ryazangorgaz</div>
+                                    <div class="work_line">Engineer</div>
+                                </div>
+                                <div class='work_logo1'>
+                                    <i class="fa fa-angle-down fa-4x"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <ul>
+                                    <li>Designing a map of gas pipes in the BricsCAD App</li>
+                                    <li>Application support for JSC Gazprom</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience_card">
+                        <div class="face face1 card">
+                            <div class="content">
+
+                                <div class="work_logo">
+                                    <i class="fa fa-users"></i>
+                                </div>
+                                <div class="work_description">
+                                    <div class="work_line">2011 - 2012</div>
+                                    <div class="work_line">Pinewood Realty</div>
+                                    <div class="work_line">Freelance. CRM-System support and database update</div>
+                                </div>
+                                <div class='work_logo1'>
+                                    <i class="fa fa-angle-down fa-4x"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <ul>
+                                    <li>CRM system database up-to-date support</li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </article>
+
+            
+
+
+            <article class="hobbies">
+                <h2><span>INTERESTS</span></h2>
+                <div class="hobbies_container">
+                    <div class="hobby_card">
+                        <i class="fa fa-bicycle"></i>
+                        <h4>Bicycle</h4>
+                    </div>
+                    <div class="hobby_card">
+                        <i class="fa fa-dumbbell"></i>
+                        <h4>Gym</h4>
+                    </div>
+                    <div class="hobby_card">
+                        <i class="fa fa-book-reader"></i>
+                        <h4>Books</h4>
+                    </div>
+                    <div class="hobby_card">
+                        <i class="fa fa-music"></i>
+                        <h4>Music</h4>
+                    </div>
+                    <div class="hobby_card">
+                        <i class="fa fa-utensils"></i>
+                        <h4>Cooking</h4>
+                    </div>
+                    <div class="hobby_card">
+                        <i class="fa fa-globe-americas"></i>
+                        <h4>Travel</h4>
+                    </div>
+                </div>
+
+            </article>
+
+            <footer class="card">
+                <a href="#top">
+                    <div class="to_top">
+                        <i class="fa fa-arrow-circle-up"></i>
+                    </div>
+                </a>
+                <div class="copyright">
+                    2023 &copy; Ekaterina Makarenkova
+                </div>
+                <a href="#top">
+                    <div class="to_top">
+                        <i class="fa fa-arrow-circle-up"></i>
+                    </div>
+                </a>
+            </footer>
+        </main>
+        <div class="right_space">
+
+        </div>
+    </div>
+</body>
+
+</html>
